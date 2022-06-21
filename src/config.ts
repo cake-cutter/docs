@@ -1,6 +1,7 @@
 export const SITE = {
-  title: "Documentation",
-  description: "Your website description.",
+  title: "Cakecutter",
+  description:
+    "Cakecutter is a powerful tool for setting up a basic app of any type/language/framework. Cakes (templates) are capable of asking questions and creating files and running commands based on the answers.",
   defaultLanguage: "en_US",
 };
 
