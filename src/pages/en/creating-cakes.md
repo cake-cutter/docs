@@ -1,6 +1,6 @@
 ---
 title: Creating Cakes
-description: Cakecutter | Installation
+description: Cakecutter | Creating Cakes
 layout: ../../layouts/MainLayout.astro
 ---
 
