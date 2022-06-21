@@ -4,8 +4,6 @@ description: Cakecutter | Publishing Cakes
 layout: ../../layouts/MainLayout.astro
 ---
 
-# Publishing a cake for everyone's use
-
 ## Logging in
 
 You need to login before you can publish a package.
@@ -18,7 +16,7 @@ After you have logged in. You can publish the cake!
 
 ## Creating a README
 
-You need to create a readme file. It contains details about the cake and it will also appear in the website so it should be nice.
+You need to create a `README` file. It contains details about the cake and it will also appear on the website so it should be nice.
 
 ## Finding a name thats not taken
 

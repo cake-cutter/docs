@@ -4,9 +4,14 @@ description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
-# Welcome to cakecutter
+### 👀 What is Cakecutter?
+Sometimes, the most difficult thing is to just get started with a project. Cakecutter is a tool that helps you to cut the cake and start your amazing project instantly. 
 
-Cakecutter is a powerful tool for setting up a basic app of any type/language/framework. It manages templates through cakes which are written in `toml` syntax. Cakes are capable of asking question and creating files and running commands based on the answers.
+What Cakecutter does:
+- Users can [publish](/en/publishing-cakes/), [create](/en/creating-cakes/) or [use a cake](/en/using-cakes) from [Cakes.run](https://cakes.run). Cakes are basically TOML files which contain all the information needed to create a project. 
+- According to the information in the `Cakefile`, Cakecutter will create all the files and (you can also fill them with content) in the correct location.
+- Setup commands (installing dependencies, etc) can be defined in the `Cakefile`. These commands are run after the files are generated.
+- Cakecutter can ask questions to the user and take input. The input can then be used as variables for the project template. [Read the docs here](/en/advance-usage)
 
 ## Documentation
 
@@ -22,12 +27,12 @@ Cakecutter is a powerful tool for setting up a basic app of any type/language/fr
   - [File Content](/en/creating-cakes/#file-content)
   - [Sprinkling some toppings](/en/creating-cakes/#sprinkling-some-toppings)
 
-- [Advance Usage](/en/advance-usage)
+- [Advanced Usage](/en/advanced-usage)
 
-  - [Asking questions](/en/advance-usage/#asking-questions)
-  - [Creating files based on answers](/en/advance-usage/#creating-files-based-on-answers)
-  - [Dyanmic file contents](/en/advance-usage/#dynamic-file-contents)
-  - [Running commands based on answers](/en/advance-usage/#running-commands-based-on-answers)
+  - [Asking questions](/en/advanced-usage/#asking-questions)
+  - [Creating files based on answers](/en/advanced-usage/#creating-files-based-on-answers)
+  - [Dyanmic file contents](/en/advanced-usage/#dynamic-file-contents)
+  - [Running commands based on answers](/en/advanced-usage/#running-commands-based-on-answers)
 
 - [Basic Example Cake](/en/example)
 

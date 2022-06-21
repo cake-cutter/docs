@@ -1,3 +1,7 @@
+li {
+  line-height: 1.5;
+}
+
 * {
 	box-sizing: border-box;
 	margin: 0;
