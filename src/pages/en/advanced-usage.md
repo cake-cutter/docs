@@ -4,9 +4,7 @@ description: Cakecutter | Advanced Usage
 layout: ../../layouts/MainLayout.astro
 ---
 
-# Advance Usage
-
-You would might still prefer a custom cli because you can use some fancy terminal ui library to ask questions based on which you create files. Did you know that cakecutter can do that too? Isn't that cooooooooooooooooool?
+You might still prefer a custom cli because you can use some fancy terminal ui library to ask questions based on which you create files. Did you know that cakecutter can do that too? Isn't that cooooooooooooooooool?
 
 ## Asking questions
 
@@ -33,7 +31,7 @@ default = "Don't wanna share"
 
 There are two types -
 
-- `input` - Input type is normal user input, The answer can be anything.
+- `input` - Input type is normal user input. The answer can be anything.
 - `select` - In select type, the user is given a number of options from which the user has to select one.
 - `menu` - An alias for `select`
 
@@ -41,7 +39,7 @@ before creating the template. the user will be asked these questions, answers to
 
 ## Creating files based on answers
 
-Remember the `true` value that you have to put if you want a file to be created? Now you can use a templating language to return `true` or `false` based on the answers you get
+Remember the `true` value that you have to put if you want a file to be created? Now you can use a templating language to return `true` or `false` based on the answers you get.
 
 ```toml
 "apple" = '''
@@ -94,7 +92,7 @@ You can learn more about the templating language [here](https://pkg.go.dev/text/
 
 ## Running commands based on answers
 
-You can also use the templating language to return `true` or `false`. If the return is `true` the command will be invoked.
+You can also use the templating language to return `true` or `false`. If the return is `true`, the command will be invoked.
 
 ```toml
 [commands]
@@ -107,7 +105,7 @@ You can also use the templating language to return `true` or `false`. If the ret
 '''
 ```
 
-> Here `id` is the question's id and `value` is the answer thats being compared with
+> Here `id` is the question's id and `value` is the answer that's being compared with
 
 This is equivalent to :-
 

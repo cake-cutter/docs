@@ -4,23 +4,21 @@ description: Cakecutter | Using Cakes
 layout: ../../layouts/MainLayout.astro
 ---
 
-# Using Cakes
-
 ## Online cakes
 
-After installing cakecutter you can run
+After installing `cakecutter` you can run
 
 ```
 cc cut <cake> <dir>
 ```
 
-> `cake` is the cake's name and `dir` is the directory where the template will be created
+> `<cake>` is the cake's name and `<dir>` is the directory where the template will be created
 
 to cut an online cake
 
 ## Local cakes
 
-You can cut local cakes written in [`toml`](https://toml.io/) files by running
+You can cut local cakes written in [`toml`](https://toml.io/) syntax files by running
 
 ```
 cc local <cake.toml> <dir>
@@ -30,7 +28,7 @@ cc local <cake.toml> <dir>
 
 ## With npx
 
-If you are using cakecutter through npx then just prefix the command with `npx`.
+If you are using cakecutter through `npx` then just prefix the command with `npx`.
 
 ```
 npx cc cut <cake> <dir>

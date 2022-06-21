@@ -4,11 +4,9 @@ description: Cakecutter | Installation
 layout: ../../layouts/MainLayout.astro
 ---
 
-# Installating the cli
-
 ## Using Go
 
-If you have Go installed, you can install cakecutter directly form source.
+If you have Go installed, you can install cakecutter directly from source.
 
 ```
 go install github.com/cake-cutter/cc@latest
@@ -16,7 +14,7 @@ go install github.com/cake-cutter/cc@latest
 
 ## Using npm
 
-You can also use npm to install cakecutter.
+You can also use npm -
 
 <details>
   <summary>For Windows</summary>

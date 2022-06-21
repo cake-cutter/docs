@@ -4,31 +4,36 @@ description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
-# Welcome to cakecutter
+### 👀 What is Cakecutter?
+Sometimes, the most difficult thing is to just get started with a project. Cakecutter is a tool that helps you to cut the cake and start your amazing project instantly. 
 
-Cakecutter is a powerful tool for setting up a basic app of any type/language/framework. It manages templates through cakes which are written in `toml` syntax. Cakes are capable of asking question and creating files and running commands based on the answers.
+What Cakecutter does:
+- Users can [publish](/en/publishing-cakes/), [create](/en/creating-cakes/) or [use a cake](/en/using-cakes) from [Cakes.run](https://cakes.run). Cakes are basically TOML files which contain all the information needed to create a project. 
+- According to the information in the `Cakefile`, Cakecutter will create all the files and (you can also fill them with content) in the correct location.
+- Setup commands (installing dependencies, etc) can be defined in the `Cakefile`. These commands are run after the files are generated.
+- Cakecutter can ask questions to the user and take input. The input can then be used as variables for the project template. [Read the docs here](/en/advance-usage)
 
 ## Documentation
 
-- [Installating the CLI](/1-install)
+- [Installating the CLI](/en/installation)
 
-- [Using cakes](/2-usage)
+- [Using cakes](/en/using-cakes)
 
-- [Creating a cake](/3-create)
+- [Creating a cake](/en/creating-cakes)
 
-  - [Cake Metadata](/3-create/#cake-metadata)
-  - [Folding the Batter](/3-create/#folding-the-batter)
-  - [File Strucuture](/3-create/#file-structure)
-  - [File Content](/3-create/#file-content)
-  - [Sprinkling some toppings](/3-create/#sprinkling-some-toppings)
+  - [Cake Metadata](/en/creating-cakes/#cake-metadata)
+  - [Folding the Batter](/en/creating-cakes/#folding-the-batter)
+  - [File Strucuture](/en/creating-cakes/#file-structure)
+  - [File Content](/en/creating-cakes/#file-content)
+  - [Sprinkling some toppings](/en/creating-cakes/#sprinkling-some-toppings)
 
-- [Advance Usage](/4-advance)
+- [Advanced Usage](/en/advanced-usage)
 
-  - [Asking questions](/4-advance/#asking-questions)
-  - [Creating files based on answers](/4-advance/#creating-files-based-on-answers)
-  - [Dyanmic file contents](/4-advance/#dynamic-file-contents)
-  - [Running commands based on answers](/4-advance/#running-commands-based-on-answers)
+  - [Asking questions](/en/advanced-usage/#asking-questions)
+  - [Creating files based on answers](/en/advanced-usage/#creating-files-based-on-answers)
+  - [Dyanmic file contents](/en/advanced-usage/#dynamic-file-contents)
+  - [Running commands based on answers](/en/advanced-usage/#running-commands-based-on-answers)
 
-- [Basic Example Cake](/5-example)
+- [Basic Example Cake](/en/example)
 
-- [Publishing a cake for everyone's use](/6-publish)
+- [Publishing a cake for everyone's use](/en/publishing-cakes)

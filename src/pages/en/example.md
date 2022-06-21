@@ -4,7 +4,7 @@ description: Cakecutter | Example
 layout: ../../layouts/MainLayout.astro
 ---
 
-# Basic Example Cake
+### Basic Example Cake
 
 Here is a basic cake which asks for the user's name and creates a file with their name as the content
 
@@ -22,6 +22,6 @@ type = "input"
 
 [content]
 "name.txt" = '''
-{{index . "name"}}
+{{index .Ans "name"}}
 '''
 ```
