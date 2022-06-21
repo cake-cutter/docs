@@ -1,21 +1,21 @@
 export const SITE = {
-	title: 'Documentation',
-	description: 'Your website description.',
-	defaultLanguage: 'en_US',
+  title: "Documentation",
+  description: "Your website description.",
+  defaultLanguage: "en_US",
 };
 
 export const OPEN_GRAPH = {
-	image: {
-		src: 'https://github.com/withastro/astro/blob/main/assets/social/banner.jpg?raw=true',
-		alt:
-			'astro logo on a starry expanse of space,' +
-			' with a purple saturn-like planet floating in the right foreground',
-	},
-	twitter: 'astrodotbuild',
+  image: {
+    src: "https://github.com/withastro/astro/blob/main/assets/social/banner.jpg?raw=true",
+    alt:
+      "astro logo on a starry expanse of space," +
+      " with a purple saturn-like planet floating in the right foreground",
+  },
+  twitter: "astrodotbuild",
 };
 
 export const KNOWN_LANGUAGES = {
-	English: 'en',
+  English: "en",
 };
 
 // Uncomment this to add an "Edit this page" button to every page of documentation.
@@ -33,14 +33,11 @@ export const KNOWN_LANGUAGES = {
 // }
 
 export const SIDEBAR = {
-	en: [
-		{ text: '', header: true },
-		{ text: 'Section Header', header: true },
-		{ text: 'Introduction', link: 'en/introduction' },
-		{ text: 'Page 2', link: 'en/page-2' },
-		{ text: 'Page 3', link: 'en/page-3' },
-
-		{ text: 'Another Section', header: true },
-		{ text: 'Page 4', link: 'en/page-4' },
-	],
+  en: [
+    { text: "", header: true },
+    { text: "Getting Started", header: true },
+    { text: "Introduction", link: "en/introduction" },
+    { text: "Installation", link: "en/installation" },
+    { text: "Using Cakes", link: "en/using-cakes" },
+  ],
 };

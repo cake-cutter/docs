@@ -4,23 +4,31 @@ description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
-**Welcome to Astro!**
+# Welcome to cakecutter
 
-This is the `docs` starter template. It contains all of the features that you need to build a Markdown-powered documentation site, including:
+Cakecutter is a powerful tool for setting up a basic app of any type/language/framework. It manages templates through cakes which are written in `toml` syntax. Cakes are capable of asking question and creating files and running commands based on the answers.
 
-- ✅ **Full Markdown support**
-- ✅ **Responsive mobile-friendly design**
-- ✅ **Sidebar navigation**
-- ✅ **Search (powered by Algolia)**
-- ✅ **Multi-language i18n**
-- ✅ **Automatic table of contents**
-- ✅ **Automatic list of contributors**
-- ✅ (and, best of all) **dark mode**
+## Documentation
 
-## Getting Started
+- [Installating the CLI](/1-install)
 
-To get started with this theme, check out the `README.md` in your new project directory. It provides documentation on how to use and customize this template for your own project. Keep the README around so that you can always refer back to it as you build.
+- [Using cakes](/2-usage)
 
-Found a missing feature that you can't live without? Please suggest it on Discord [(#ideas-and-suggestions channel)](https://astro.build/chat) and even consider adding it yourself on GitHub! Astro is an open source project and contributions from developers like you are how we grow!
+- [Creating a cake](/3-create)
 
-Good luck out there, Astronaut. 🧑‍🚀
+  - [Cake Metadata](/3-create/#cake-metadata)
+  - [Folding the Batter](/3-create/#folding-the-batter)
+  - [File Strucuture](/3-create/#file-structure)
+  - [File Content](/3-create/#file-content)
+  - [Sprinkling some toppings](/3-create/#sprinkling-some-toppings)
+
+- [Advance Usage](/4-advance)
+
+  - [Asking questions](/4-advance/#asking-questions)
+  - [Creating files based on answers](/4-advance/#creating-files-based-on-answers)
+  - [Dyanmic file contents](/4-advance/#dynamic-file-contents)
+  - [Running commands based on answers](/4-advance/#running-commands-based-on-answers)
+
+- [Basic Example Cake](/5-example)
+
+- [Publishing a cake for everyone's use](/6-publish)
