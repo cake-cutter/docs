@@ -38,7 +38,7 @@ Batter are the commands which are run before creating all the files.
 ```
 
 The reason `true` is there. because it tells cakecutter to run this. its needs to be there or else the command won't be invoked.
-Head to [`Advance Usage`](/4-advance) section for more information.
+Head to [`Advance Usage`](/en/advance-usage) section for more information.
 
 ## File Structure
 
@@ -52,7 +52,7 @@ To create a file/directory put the it's name in `[filestructure]` table as the k
 
 The value `true` tells cakecutter to create this. if the value does not contain `true` it won't create the file/dir.
 The reason its like this is because of dynamic filestructure. While creating the template, cakecutter will ask some questions configured by the cake author, based on there answers the files are created.
-To configure questions head to [`Advance Usage`](/4-advance) section.
+To configure questions head to [`Advance Usage`](/en/advance-usage) section.
 
 ## File Content
 
@@ -73,7 +73,7 @@ func main() {
 
 > Note: You can use multiline strings using 3 quotes `""" """`
 
-Dynamic content is also possible by templating. head to [`Advance Usage`]('/4-advance') section for more information.
+Dynamic content is also possible by templating. head to [`Advance Usage`]('/en/advance-usage') section for more information.
 
 ## Sprinkling some toppings
 
@@ -101,4 +101,4 @@ cc local <path-to-the-file.toml> <directory>
 
 The template should be created in the that directory.<br>
 
-Head to [`How to publish a cake`](/5-advance) section if you wanna publish this cake for everyone's use.
+Head to [`How to publish a cake`](/env/publishing-cakes) section if you wanna publish this cake for everyone's use.

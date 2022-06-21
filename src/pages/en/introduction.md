@@ -10,25 +10,25 @@ Cakecutter is a powerful tool for setting up a basic app of any type/language/fr
 
 ## Documentation
 
-- [Installating the CLI](/1-install)
+- [Installating the CLI](/en/installation)
 
-- [Using cakes](/2-usage)
+- [Using cakes](/en/using-cakes)
 
-- [Creating a cake](/3-create)
+- [Creating a cake](/en/creating-cakes)
 
-  - [Cake Metadata](/3-create/#cake-metadata)
-  - [Folding the Batter](/3-create/#folding-the-batter)
-  - [File Strucuture](/3-create/#file-structure)
-  - [File Content](/3-create/#file-content)
-  - [Sprinkling some toppings](/3-create/#sprinkling-some-toppings)
+  - [Cake Metadata](/en/creating-cakes/#cake-metadata)
+  - [Folding the Batter](/en/creating-cakes/#folding-the-batter)
+  - [File Strucuture](/en/creating-cakes/#file-structure)
+  - [File Content](/en/creating-cakes/#file-content)
+  - [Sprinkling some toppings](/en/creating-cakes/#sprinkling-some-toppings)
 
-- [Advance Usage](/4-advance)
+- [Advance Usage](/en/advance-usage)
 
-  - [Asking questions](/4-advance/#asking-questions)
-  - [Creating files based on answers](/4-advance/#creating-files-based-on-answers)
-  - [Dyanmic file contents](/4-advance/#dynamic-file-contents)
-  - [Running commands based on answers](/4-advance/#running-commands-based-on-answers)
+  - [Asking questions](/en/advance-usage/#asking-questions)
+  - [Creating files based on answers](/en/advance-usage/#creating-files-based-on-answers)
+  - [Dyanmic file contents](/en/advance-usage/#dynamic-file-contents)
+  - [Running commands based on answers](/en/advance-usage/#running-commands-based-on-answers)
 
-- [Basic Example Cake](/5-example)
+- [Basic Example Cake](/en/example)
 
-- [Publishing a cake for everyone's use](/6-publish)
+- [Publishing a cake for everyone's use](/en/publishing-cakes)

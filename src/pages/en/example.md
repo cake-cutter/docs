@@ -22,6 +22,6 @@ type = "input"
 
 [content]
 "name.txt" = '''
-{{index . "name"}}
+{{index .Ans "name"}}
 '''
 ```

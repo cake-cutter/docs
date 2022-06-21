@@ -1,6 +1,6 @@
 ---
-title: Advanced Usage
-description: Cakecutter | Advanced Usage
+title: Advance Usage
+description: Cakecutter | Advance Usage
 layout: ../../layouts/MainLayout.astro
 ---
 
