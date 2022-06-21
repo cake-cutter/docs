@@ -39,5 +39,6 @@ export const SIDEBAR = {
     { text: "Introduction", link: "en/introduction" },
     { text: "Installation", link: "en/installation" },
     { text: "Using Cakes", link: "en/using-cakes" },
+    { text: "Creating Cakes", link: "en/creating-cakes" },
   ],
 };
