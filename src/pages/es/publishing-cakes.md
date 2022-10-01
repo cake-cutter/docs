@@ -1,37 +1,37 @@
 ---
-title: Publishing Cakes
-description: Cakecutter | Publishing Cakes
+title: Publicar Cakes
+description: Cakecutter | Publicar Cakes
 layout: ../../layouts/MainLayout.astro
 ---
 
-## Logging in
+## Acceso
 
-You need to login before you can publish a package.
+Tienes que acceder a tu cuenta antes de publicar una cake.
 
 ```
 cc login
 ```
 
-After you have logged in. You can publish the cake!
+Luego de acceder, ¡puedes publicar la cake!
 
-## Creating a README
+## Crear el fichero README
 
-You need to create a `README` file. It contains details about the cake and it will also appear on the website so it should be nice.
+El fichero `README` file contiene los detalles de la cake y, además, aparecerá en tu sitio web, lo que es genial.
 
-## Finding a name thats not taken
+## Encontrar un nombre que no esté en uso
 
-If a cake with the same name exists. You won't be able to publish a cake with the same name (unless you own that cake). So please make sure that the name is not taken and then publish
+Si una cake con el mismo nombre existe, no podrás publicar la cake (a menos que seas dueño de esa cake). Por eso, asegúrate que el nombre no esté en uso y luego, procede a publicar tu cake
 
-## Publishing
+## Publicación
 
-To publish a cake you can use the `publish` command.
+Para publicar una cake, corre el comando `publish`.
 
 ```
 cc publish <cake.toml>
 ```
 
-> here `cake.toml` is the path of the `cake` you wanna publish
+> Aquí `cake.toml` es la ruta de la `cake` que quieres publicar
 
-## Updating the cake
+## Actualizar la cake
 
-You can update the cake by using the same command. The cake will be replaced with the new one.
+Puedes actualizar la cake utilizando el mismo comando. La cake será reemplazada con la nueva.
