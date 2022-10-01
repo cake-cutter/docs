@@ -21,7 +21,7 @@ name = "cakecutter"
 description = "Una descripción genial"
 ```
 
-## Doblando la Mantequilla
+## Doblando la Mantequilla (Folding the butter)
 
 Batter (o Mantenquilla en español) son los comandos que se corren antes de la creación de ficheros u archivos.
 

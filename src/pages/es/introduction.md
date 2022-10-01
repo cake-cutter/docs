@@ -1,39 +1,39 @@
 ---
-title: Introduction
+title: Introducción
 description: Docs intro
 layout: ../../layouts/MainLayout.astro
 ---
 
-### 👀 What is Cakecutter?
-Sometimes, the most difficult thing is to just get started with a project. Cakecutter is a tool that helps you to cut the cake and start your amazing project instantly. 
+### 👀 ¿Qué es Cakecutter?
+Algunas veces, lo más difícil es empezar con un proyecto. Cakecutter es una herramienta que te ayuda a cortar la torta (cut the cake en inglés) y empezar tu proyecto instantáneamente.
 
-What Cakecutter does:
-- Users can [publish](/en/publishing-cakes/), [create](/en/creating-cakes/) or [use a cake](/en/using-cakes) from [Cakes.run](https://cakes.run). Cakes are basically TOML files which contain all the information needed to create a project. 
-- According to the information in the `Cakefile`, Cakecutter will create all the files and (you can also fill them with content) in the correct location.
-- Setup commands (installing dependencies, etc) can be defined in the `Cakefile`. These commands are run after the files are generated.
-- Cakecutter can ask questions to the user and take input. The input can then be used as variables for the project template. [Read the docs here](/en/advance-usage)
+Lo que Cakecutter es capaz de hacer:
+- Usuarios pueden [publicar](/es/publishing-cakes/), [crear](/es/creating-cakes/) o [usar una cake](/es/using-cakes) desde [Cakes.run](https://cakes.run). Cakes son básicamente ficheros TOML files que contienen toda la información que se necesita para crear un proyecto. 
+- Según la información en el fichero `Cakefile`, Cakecutter creará todos los ficheros (tú puedes crear el contenido de ellos) en la ubicación correcta.
+- Comandos de setup (instalar dependencias, etcétera) pueden ser definidos en el fichero `Cakefile`. Estos comandos se corren luego de que los ficheros son generados.
+- Cakecutter puede realizar preguntas al uduario y tomar sus respuestas. Dichas respuestas luego pueden ser utilizadas como variables en la plantilla del proyecto. [Lee la documentación aquí](/es/advance-usage)
 
-## Documentation
+## Documentación
 
-- [Installating the CLI](/en/installation)
+- [Instalando la terminal CLI](/es/installation)
 
-- [Using cakes](/en/using-cakes)
+- [Usando cakes](/es/using-cakes)
 
-- [Creating a cake](/en/creating-cakes)
+- [Creando una cake](/es/creating-cakes)
 
-  - [Cake Metadata](/en/creating-cakes/#cake-metadata)
-  - [Folding the Batter](/en/creating-cakes/#folding-the-batter)
-  - [File Strucuture](/en/creating-cakes/#file-structure)
-  - [File Content](/en/creating-cakes/#file-content)
-  - [Sprinkling some toppings](/en/creating-cakes/#sprinkling-some-toppings)
+  - [El Metadata de Cake](/es/creating-cakes/#el-metadata-de-cake)
+  - [Doblando la Mantequilla (Folding the butter)](/es/creating-cakes/#doblando-la-mantequilla-folding-the-butter)
+  - [Estructura de fichero](/es/creating-cakes#estructura-del-fichero)
+  - [Contenido de fichero](/es/creating-cakes#contenido-del-fichero)
+  - [Espolvorear algunos ingredientes adicionales](/es/creating-cakes#espolvorear-algunos-ingredientes-adicionales)
 
-- [Advanced Usage](/en/advanced-usage)
+- [Uso Avanzado](/es/advanced-usage)
 
-  - [Asking questions](/en/advanced-usage/#asking-questions)
-  - [Creating files based on answers](/en/advanced-usage/#creating-files-based-on-answers)
-  - [Dyanmic file contents](/en/advanced-usage/#dynamic-file-contents)
-  - [Running commands based on answers](/en/advanced-usage/#running-commands-based-on-answers)
+  - [Realizar preguntas](/es/advanced-usage#realizar-preguntas)
+  - [Creando ficheros u archivos basados en respuestas](/es/advanced-usage#creando-ficheros-u-archivos-basados-en-respuestas)
+  - [Contenido dinámico de ficheros](/es/advanced-usage#contenido-de-fichero-dinámico)
+  - [Corriendo comandos basados en respuestas](/es/advanced-usage#corriendo-comandos-basados-en-respuestas)
 
-- [Basic Example Cake](/en/example)
+- [Ejemplo básico de una Cake](/es/example)
 
-- [Publishing a cake for everyone's use](/en/publishing-cakes)
+- [Publicar una cake para que la puedan usar todos](/es/publishing-cakes)

@@ -38,7 +38,7 @@ Existen dos tipos -
 
 Antes de crear la plantilla, el usuario deberá realizar las preguntas y las respuestas serán guardadas
 
-## Creando ficheros u archivos basados en preguntas
+## Creando ficheros u archivos basados en respuestas
 
 ¿Recuerdas el valor `true` que debes ingresar si quieres que un fichero o archivo sea creado? Ahora puedes usar el lenguaje de plantillas para retornar `true` o `false` basándote en la respuesta que obtengas.
 
