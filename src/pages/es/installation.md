@@ -1,23 +1,23 @@
 ---
-title: Installation
-description: Cakecutter | Installation
+title: Instalación
+description: Cakecutter | Instalación
 layout: ../../layouts/MainLayout.astro
 ---
 
-## Using Go
+## Usando Go
 
-If you have Go installed, you can install cakecutter directly from source.
+Si tienes Go instalado, puedes instalar cakecutter desde su fuente.
 
 ```
 go install github.com/cake-cutter/cc@latest
 ```
 
-## Using npm
+## Usando npm
 
-You can also use npm -
+Puedes usar npm -
 
 <details>
-  <summary>For Windows</summary>
+  <summary>Para Windows</summary>
 
 ```
 npm install -g cakecutter
@@ -26,7 +26,7 @@ npm install -g cakecutter
 </details>
 
 <details>
-  <summary>For MacOS</summary>
+  <summary>Para MacOS</summary>
 
 ```
 npm install -g cc-for-mac
@@ -35,7 +35,7 @@ npm install -g cc-for-mac
 </details>
 
 <details>
-  <summary>For Linux</summary>
+  <summary>Para Linux</summary>
 
 ```
 npm install -g cc-for-linux
@@ -43,8 +43,9 @@ npm install -g cc-for-linux
 
 </details>
 
-> Cakecutter hasn't been tested on MacOS and Linux, please open an [issue](https://github.com/cake-cutter/cc/issues/new/choose) if you come across a bug.
+> Cakecutter no fue testeado en MacOS ni en Linux, abre una [incidencia](https://github.com/cake-cutter/cc/issues/new/choose) si te encuentras con algo que no funcione bien.
 
-## Using binary executables
 
-Download the binary executables from the <a href="https://github.com/cake-cutter/cc/tree/master/bin" target="_blank">repository</a>.
+## Usando binarios ejecutables
+
+Descarga el binario ejecutable desde este <a href="https://github.com/cake-cutter/cc/tree/master/bin" target="_blank">repositorio</a>.
