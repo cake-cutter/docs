@@ -1,34 +1,34 @@
 ---
-title: Using Cakes
-description: Cakecutter | Using Cakes
+title: Usando Cakes
+description: Cakecutter | Usando Cakes
 layout: ../../layouts/MainLayout.astro
 ---
 
-## Online cakes
+## Cakes en línea
 
-After installing `cakecutter` you can run
+Luego de instalar `cakecutter` puede correr
 
 ```
 cc cut <cake> <dir>
 ```
 
-> `<cake>` is the cake's name and `<dir>` is the directory where the template will be created
+> `<cake>` es el nombre de la cake y `<dir>` es el directorio donde la plantilla será creada
 
-to cut an online cake
+Para cortar una torta o cake en línea
 
-## Local cakes
+## Cakes locales
 
-You can cut local cakes written in [`toml`](https://toml.io/) syntax files by running
+Puedes cortar tus cakes o tortas locales escritas en sintaxis [`toml`](https://toml.io/) corriendo
 
 ```
 cc local <cake.toml> <dir>
 ```
 
-> `cake.toml` is the path to the local cake file and `dir` is the directory where the template will be created
+> `cake.toml` es la ruta a la cake local y  `dir` es el directorio donde la plantilla será creada
 
-## With npx
+## Con npx
 
-If you are using cakecutter through `npx` then just prefix the command with `npx`.
+Si estás utilizando cakecutter a través de `npx`, entonces utiliza `npx` como prefijo a los comandos
 
 ```
 npx cc cut <cake> <dir>
