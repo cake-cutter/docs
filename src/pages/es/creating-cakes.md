@@ -1,29 +1,29 @@
 ---
-title: Creating Cakes
-description: Cakecutter | Creating Cakes
+title: Creando Cakes
+description: Cakecutter | Creando Cakes
 layout: ../../layouts/MainLayout.astro
 ---
 
-> All template files are in [`.toml`](https://toml.io/en/) format, which are easy to edit and share with others.
+> Todos los archivos de plantillas están en formato [`.toml`](https://toml.io/en/), lo cual hace fácil editar y compartir con otras personas.
 
-## Cake Metadata
+## El Metadata de Cake
 
-Cake metadata consists of only two properties :-
+El Metadata de Cake consiste en dos propiedades :-
 
-- `name` :- The name of the cake
-- `description` :- The description of the cake
+- `name` :- El nombre de la cake
+- `description` :- La descripción de la cake
 
-### Example
+### Ejemplo
 
 ```toml
 [metadata]
 name = "cakecutter"
-description = "A cool description"
+description = "Una descripción genial"
 ```
 
-## Folding the Batter
+## Doblando la Mantequilla
 
-Batter are the commands which are run before creating all the files.
+Batter (o Mantenquilla en español) son los comandos que se corren antes de la creación de ficheros u archivos.
 
 ```toml
 [batter]
@@ -34,25 +34,27 @@ Batter are the commands which are run before creating all the files.
   "go mod init", "true"
 ]
 ```
+La razón de que `true` esté ahí es porque le indica a `cakecutter` corre esto, tiene que estar ahí, de lo contrario el comando no será invocado.
+Dirígete a la sección de [`Uso Avanzado`](/es/advanced-usage) para más información.
 
-The reason true is there is because it tells `cakecutter` to run this, its needs to be there, or else the command won't be invoked.
-Head to [`Advanced Usage`](/en/advanced-usage) section for more information.
+## Estructura del fichero
 
-## File Structure
-
-To create a file/directory put the it's name in `[filestructure]` table as the key with the value `true`
+Para crear un archivo/directorio, pon el nombre en la tabla `[filestructure]` como key, y el `true` como valor.
 
 ```toml
 [filestructure]
 "main.go" = "true"
-"bin/" = "true" # << To create a directory put / in the end
+"bin/" = "true" # << Para crear un directorio, pon / al final
 ```
 
-The value `true` tells `cakecutter` to create this; if the value does not contain `true` it won't create the file/dir.
-The reason it's like this is because of dynamic `filestructure`. While creating the template, `cakecutter` will ask some questions configured by the cake author, based on their answers, the files are created.
-To configure questions head to [`Advanced Usage`](/en/advanced-usage) section.## File Content
+El valor `true` le indica a `cakecutter` que cree esto; si el valor no contiene `true`, no se creará el fichero/directorio.
+La razón de este comportamiento es debido al dinamismo de `filestructure`. Mientras se crea la plantilla, `cakecutter` hará preguntas al autor de la cake. En base a sus respuestas, los ficheros son creados.
 
-To add content to a file, put its name in `[content]` table as the key with its contents as the value
+Para la configuración de preguntas, dirígete a la sección de [`Uso Avanzado`](/es/advanced-usage).
+
+## Contenido del fichero
+
+Para crear contenido en un fichero, pon el nombre de éste en la tabla `[content]` como la key y el contenido como valor.
 
 ```toml
 [content]
@@ -62,18 +64,19 @@ package main
 import "fmt"
 
 func main() {
-  fmt.Println("Hi mom")
+  fmt.Println("Hola mamá")
 }
 '''
 ```
 
-> Note: You can use multiline strings using 3 quotes `""" """`
+> Nota: Puedes usar cadenas de texto multilínea mediante 3 comillas dobles `""" """`
 
-Dynamic content is also possible by templating. head to [`Advanced Usage`]('/en/advanced-usage') section for more information.
+Contenido dinámico es también posible mediante lenguaje de plantillas. Dirígete a la sección de [`Uso Avanzado`]('/es/advanced-usage') para más información.
 
-## Sprinkling some toppings
+## Espolvorear algunos ingredientes adicionales
 
-Toppings are just like batter, but instead of running before everything, they are run after everything to complete the setup.
+Los ingredientes adicionales (toppings) son como la mantequilla o butter, pero con la diferencia de que se corren luego de que el setup esté completo.
+
 
 ```toml
 [toppings]
@@ -85,16 +88,16 @@ Toppings are just like batter, but instead of running before everything, they ar
 ]
 ```
 
-## Finishing off
+## Cerrando la sección
 
-The cake is done, save the file , and run
+La cake está terminada, guarda todo y sólo corre
 
 ```
 cc local <path-to-the-file.toml> <directory>
 ```
 
-> `directory` is the name of directory where the template will be created
+> `directory` es el nombre del directorio donde la plantilla va a ser creada
 
-The template should be created in that directory.<br>
+La plantilla debe ser creada en ese directorio.<br>
 
-Head to [`How to publish a cake`](/en/publishing-cakes) section if you wanna publish this cake for everyone's use.
+Dirígete a la sección de [`Cómo publicar una cake`](/es/publishing-cakes) si quieres que la cake sea usada por todos.
