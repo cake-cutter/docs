@@ -23,27 +23,27 @@ type = "input"
 default = "Prefiero no decirlo"
 ```
 
-- `ques` - The question that will be asked
-- `options` - The options for `select` (will only work with select type)
-- `default` - The default value (will only work with input type)
-- `type` - The type of question
+- `ques` - La pregunta que se hará
+- `options` - Las opciones para `select` (sólo funcionará para el tipo select)
+- `default` - El valor por defecto (sólo funcionará para el tipo input)
+- `type` - El tipo de pregunta
 
-### Types of question
+### Tipos de pregunta
 
-There are two types -
+Existen dos tipos -
 
-- `input` - Input type is normal user input. The answer can be anything.
-- `select` - In select type, the user is given a number of options from which the user has to select one.
-- `menu` - An alias for `select`
+- `input` - El tipo input es la entrada normal de usuario. La respuesta puede ser cualquier cosa.
+- `select` - En el tipo select, se le da al usuario un numéro de opciones de las cuales debe seleccionar una.
+- `menu` - Un alias para `select`
 
-before creating the template. the user will be asked these questions, answers to these questons will be saved.
+Antes de crear la plantilla, el usuario deberá realizar las preguntas y las respuestas serán guardadas
 
-## Creating files based on answers
+## Creando ficheros u archivos basados en preguntas
 
-Remember the `true` value that you have to put if you want a file to be created? Now you can use a templating language to return `true` or `false` based on the answers you get.
+¿Recuerdas el valor `true` que debes ingresar si quieres que un fichero o archivo sea creado? Ahora puedes usar el lenguaje de plantillas para retornar `true` o `false` basándote en la respuesta que obtengas.
 
 ```toml
-"apple" = '''
+"manzana" = '''
 {{if eq (index . "id") "value"}}
   true
 {{else}}
@@ -52,9 +52,9 @@ Remember the `true` value that you have to put if you want a file to be created?
 '''
 ```
 
-> The `id` here is the id of the question. and the `value` is the value that the answer of the question should be compared with
+> El `id` aquí es el id de la pregunta. Y el `value` es el valor con el que se debe comparar la respuesta a la pregunta
 
-This is equivalent to :-
+Esto es equivalente a :-
 
 ```js
 if (answers["id"] == "value") {
@@ -64,11 +64,11 @@ if (answers["id"] == "value") {
 }
 ```
 
-You can learn more about the templating language [here](https://pkg.go.dev/text/template)
+Puedes aprender más acerca del lenguaje de plantillas [aquí](https://pkg.go.dev/text/template)
 
-## Dynamic file contents
+## Contenido de fichero dinámico
 
-You can use the same templating language for dynamic content
+Puedes usar el mismo lenguaje de plantillas para crear contenido dinámico
 
 ```toml
 [contents]
@@ -79,9 +79,9 @@ You can use the same templating language for dynamic content
 '''
 ```
 
-> Here `name` is the id of the question
+> Aquí `name` es el id de la pregunta
 
-JS doc string equivalent :-
+Equivalente de la documentación de JS con string:-
 
 ```js
 `{
@@ -89,11 +89,11 @@ JS doc string equivalent :-
 }`;
 ```
 
-You can learn more about the templating language [here](https://pkg.go.dev/text/template)
+Puedes aprender más acerca del lenguaje de plantillas [aquí](https://pkg.go.dev/text/template)
 
-## Running commands based on answers
+## Corriendo comandos basados en respuestas
 
-You can also use the templating language to return `true` or `false`. If the return is `true`, the command will be invoked.
+Puedes usar el mismo lenguaje de plantillas para retornar `true` o `false`. Si la respuesta es `true`, el comando será invocado
 
 ```toml
 [commands]
@@ -106,9 +106,9 @@ You can also use the templating language to return `true` or `false`. If the ret
 '''
 ```
 
-> Here `id` is the question's id and `value` is the answer that's being compared with
+> Aquí `id` es el id de la pregunta y el `value` es la respuesta con la que se compara
 
-This is equivalent to :-
+Esto es equivalente a :-
 
 ```js
 if (answers["id"] == "value") {
@@ -118,8 +118,8 @@ if (answers["id"] == "value") {
 }
 ```
 
-You can learn more about the templating language [here](https://pkg.go.dev/text/template)
+Puedes aprender más acerca del lenguaje de plantillas [aquí](https://pkg.go.dev/text/template)
 
-## Finishing off
+## Cerrando la sección
 
-There are more cool features to come, so stay tuned.
+Vienen nuevos features en camino, así que mantente en sintonía.
