@@ -17,6 +17,7 @@ export const OPEN_GRAPH = {
 
 export const KNOWN_LANGUAGES = {
   English: "en",
+  Spanish: "es",
 };
 
 // Uncomment this to add an "Edit this page" button to every page of documentation.
@@ -44,5 +45,16 @@ export const SIDEBAR = {
     { text: "Advanced Usage", link: "en/advanced-usage" },
     { text: "Example", link: "en/example" },
     { text: "Publishing Cakes", link: "en/publishing-cakes" },
+  ],
+  es: [
+    { text: "", header: true },
+    { text: "Información esencial", header: true },
+    { text: "Introducción", link: "es/introduction" },
+    { text: "Instalación", link: "es/installation" },
+    { text: "Usando Cakes", link: "es/using-cakes" },
+    { text: "Creando Cakes", link: "es/creating-cakes" },
+    { text: "Uso Avanzado", link: "es/advanced-usage" },
+    { text: "Ejemplo", link: "es/example" },
+    { text: "Publicando Cakes", link: "es/publishing-cakes" },
   ],
 };
