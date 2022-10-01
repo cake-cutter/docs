@@ -39,7 +39,7 @@ Dirígete a la sección de [`Uso Avanzado`](/es/advanced-usage) para más inform
 
 ## Estructura del fichero
 
-Para crear un archivo/directorio, pon el nombre en la tabla `[filestructure]` como key, y el `true` como valor.
+Para crear un archivo/directorio, pon el nombre en la tabla `[filestructure]` como key, y `true` como valor.
 
 ```toml
 [filestructure]

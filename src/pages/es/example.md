@@ -1,20 +1,20 @@
 ---
-title: Example
-description: Cakecutter | Example
+title: Ejemplo
+description: Cakecutter | Ejemplo
 layout: ../../layouts/MainLayout.astro
 ---
 
-### Basic Example Cake
+### Ejemplo básico de una Cake
 
-Here is a basic cake which asks for the user's name and creates a file with their name as the content
+Aquí verás un ejemplo básico de una cake que pregunta por el nombre de usuario y crea un fichero cuyo contenido será el nombre de dicho usuario.
 
 ```toml
 [metadata]
 name = "name-printer"
-description = "Prints your name to a file in seconds!" # XD
+description = "Muestra tu nombre en el fichero en segundos!" # XD
 
 [[questions.name]]
-ques = "What is your name?"
+ques = "¿Cuál es tu nombre?"
 type = "input"
 
 [filestructure]
