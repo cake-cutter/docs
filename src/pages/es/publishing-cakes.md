@@ -16,7 +16,7 @@ Luego de acceder, ¡puedes publicar la cake!
 
 ## Crear el fichero README
 
-El fichero `README` file contiene los detalles de la cake y, además, aparecerá en tu sitio web, lo que es genial.
+El fichero `README` contiene los detalles de la cake y, además, aparecerá en tu sitio web, lo que es genial.
 
 ## Encontrar un nombre que no esté en uso
 
